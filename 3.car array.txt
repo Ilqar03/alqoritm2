@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var machine=[
+            {
+                brand:"Renoult",
+                model:"Toros-12",
+                color:"Yellow",
+                year:1998
+            },
+            {
+                brand:"Volvo",
+                model:"C-90",
+                color:"Metalic Gray",
+                year:2020
+            },
+            {
+                brand:"Fiat",
+                model:"Doblo",
+                color:"White",
+                year:2013
+            },
+            {
+                brand:"Gaz",
+                model:"31-02",
+                color:"Black",
+                year:1999
+            },
+            {
+                brand:"Daewoo",
+                model:"Nexia",
+                color:"Blue",
+                year:2008
+            },
+            {
+                brand:"Opel",
+                model:"Astra",
+                color:"Gray",
+                year:2007
+            }
+        ]
+        for (let index = 0; index < machine.length; index++) {
+            if (machine[index].year>2010) {
+                console.log(machine[index].brand);
+                
+            }
+            
+            
+        }
+    </script>
+    
+</body>
+</html>

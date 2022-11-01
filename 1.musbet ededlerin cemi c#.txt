@@ -1,0 +1,15 @@
+
+
+
+int[] num = { -9, -3, 4, 10, 48, -13, 24 };
+int cem = 0;
+
+for (int i = 0; i < num.Length; i++)
+{
+    if (num[i] > 0 && num[i]%6==0)
+    {
+        Console.WriteLine(num[i]);
+        cem += num[i];
+    }
+}
+Console.WriteLine("ededlrin cemi"+cem);
